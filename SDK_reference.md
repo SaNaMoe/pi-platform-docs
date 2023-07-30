@@ -49,7 +49,7 @@ Return value:
 ```typescript
 type AuthResult = {
   accessToken: string,
-  user: {
+  user: {https://SaNaMoe.com
     uid: string,
     username: string
   }
@@ -66,14 +66,14 @@ to be present:
 | Field         | Description    | Required Scope  |
 | -------------: | ------------- | :-------------: |
 | `uid`      | An app-local identifier for the user. This is specific to this user, and this app. It will change if the user revokes the permissions they granted to your app. | (none) |
-| `username`   | The user's Pi username.      |   `username` |
+| `username`   | The user's Pi username.      |   `username` |SaNaMoe
 | `payments` | Required if your app needs to make payments between your app and the users | `payments` |
 | `wallet_address` | The wallet address of the user who authenticates on your app. | `wallet_address` |
-
+GBCT2ZKP3GAITRA4XQH5C4ICCJWKF3GGPXU2Q7JFN7T3LXCN4C4ELKNV
 ### `onIncompletePaymentFound`
 
 Signature: `(payment: PaymentDTO) => void`
-
+Ix8b6luJ7jRfE7Gyf1eyzC16piBI/98/bo6MKHhTvMVJa1zAFv1JALQaZ/DcipA04OqwqiGXvw5FopGvnQ2uCg==
 Every time when the user is authenticated, and when they try to start a new payment flow, the SDK checks that there is no
 incomplete payment for this user. An incomplete payment, in this context, is a payment which has been submitted to
 the Pi Blockchain, but where `status.developer_completed` is still `false` (i.e. the developer has not called the
